@@ -1,13 +1,12 @@
-// Jim Whitehead
-// Created: 4/14/2024
+// Jefferson Patricio
+// Created: 5/16/2026
 // Phaser: 3.70.0
 //
-// Cubey
+// Platformer Project
 //
-// An example of putting sprites on the screen using Phaser
+// A simple platformer game implementation
 // 
-// Art assets from Kenny Assets "Shape Characters" set:
-// https://kenney.nl/assets/shape-characters
+// Art assets from Kenny Assets
 
 // debug with extreme prejudice
 "use strict"
@@ -22,7 +21,7 @@ let config = {
     physics: {
         default: 'arcade',
         arcade: {
-            debug: true,
+            debug: false,
             gravity: {
                 x: 0,
                 y: 0
@@ -31,11 +30,13 @@ let config = {
     },
     width: 1440,
     height: 900,
-    scene: [Load, Platformer]
+    scene: [Load, Platformer, Win, Lose]
 }
 
 var cursors;
 const SCALE = 2.0;
-var my = {sprite: {}, text: {}};
+
+//  Global variables accessible accross all scenes
+var my = { sprite: {}, text: {}, vfx: {} };
 
 const game = new Phaser.Game(config);

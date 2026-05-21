@@ -1,0 +1,27 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+    },
+    "last.exportedFilePath": "//wsl$/Ubuntu/home/tooslowpatricio/CMPM120/PlatformerProject/assets/tiled_files",
+    "last.imagePath": "//wsl$/Ubuntu/home/tooslowpatricio/CMPM120/PlatformerProject/assets/kenney_pixel_platformer_food_expansion/Tilemap",
+    "map.height": 25,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 18,
+    "map.tileWidth": 18,
+    "map.width": 135,
+    "openFiles": [
+    ],
+    "project": "PixelPlatformer.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 18,
+        "width": 18
+    }
+}
